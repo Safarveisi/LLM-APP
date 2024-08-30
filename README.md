@@ -16,7 +16,7 @@ To start a local MLflow server, run the following command in your terminal:
 mlflow server --host 127.0.0.1 --port 8080
 ```
 ### Paid OpenAI API KEY
-To run the Jupyter notebooks, you need a paid OpenAI API key, as the RAG pipelines utilize GPT-4o-mini for response generation. Alternatively, you can opt to use local LLMs from Hugging Face Transformers by modifying the relevant sections in the code. 
+To run the Jupyter notebooks, you need a paid OpenAI API key, as the RAG pipelines utilize GPT-4o-mini for response generation. Alternatively, you can opt to use local LLMs from Hugging Face Transformers (similar to query/sentence embedders in the rag pipelines) by modifying the relevant sections in the code.
 
 ### Using Hugging Face Transformers in RAG Pipeline
 
