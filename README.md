@@ -14,3 +14,13 @@ For optimal performance in the RAG pipeline, it is recommended to use a GPU for 
 If you do not have access to a GPU-enabled VM or machine, you can still run the pipeline on a CPU. To adjust the settings for CPU usage, please refer to the comments in the Jupyter notebooks.
 
 Ensure to modify the `device` parameter in the model loading commands to `"cpu"` if a GPU is not available.
+
+### Starting a Local MLflow Server
+
+Before running the Jupyter notebooks, make sure to start a local MLflow server. This is crucial for logging and tracking experiments within the RAG pipeline.
+
+To start a local MLflow server, run the following command in your terminal:
+
+```bash
+mlflow server --host 127.0.0.1 --port 8080
+```
