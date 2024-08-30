@@ -1,4 +1,6 @@
 # LLM-APP
 LLM-based applications using Haystack 2.x
+
 ## RAG
-`rag_mlflow_documents.ipynb` and `rag_arbitrary_sources.ipynb` use Haystack and MLflow to create and evaluate a RAG pipeline using different metrics. 
+The notebooks `rag_mlflow_documents.ipynb` and `rag_arbitrary_sources.ipynb` demonstrate how to use Haystack and MLflow to create and evaluate a RAG pipeline with various metrics. If you're unfamiliar with RAG, the diagrams below provide a high-level overview of the process.
+![plot](./diagrams/rag.png)
