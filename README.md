@@ -15,6 +15,9 @@ To start a local MLflow server, run the following command in your terminal:
 ```bash
 mlflow server --host 127.0.0.1 --port 8080
 ```
+### Paid OpenAI API KEY
+To run the Jupyter notebooks, you need a paid OpenAI API key, as the RAG pipelines utilize GPT-4o-mini for response generation. Alternatively, you can opt to use local LLMs from Hugging Face Transformers by modifying the relevant sections in the code. 
+
 ### Using Hugging Face Transformers in RAG Pipeline
 
 For optimal performance in the RAG pipeline, it is recommended to use a GPU for running Hugging Face transformers. Utilizing a GPU can significantly speed up model inference.
