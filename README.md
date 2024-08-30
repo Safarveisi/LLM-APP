@@ -9,7 +9,7 @@ The notebooks `rag_mlflow_documents.ipynb` and `rag_arbitrary_sources.ipynb` dem
 
 For optimal performance in the RAG pipeline, it is recommended to use a GPU for running Hugging Face transformers. Utilizing a GPU can significantly speed up model inference.
 
-#### What to Do If You Don’t Have a GPU
+### What to Do If You Don’t Have a GPU
 
 If you do not have access to a GPU-enabled VM or machine, you can still run the pipeline on a CPU. To adjust the settings for CPU usage, please refer to the comments in the Jupyter notebooks.
 
